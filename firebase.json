@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mytown-tallapoosa",
+          "appId": "1:835613554586:android:089e49db1e99e73ba0ec23",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "mytown-tallapoosa",
+          "appId": "1:835613554586:ios:326a4b2f1b032f09a0ec23",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "mytown-tallapoosa",
+          "appId": "1:835613554586:ios:326a4b2f1b032f09a0ec23",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mytown-tallapoosa",
+          "configurations": {
+            "android": "1:835613554586:android:089e49db1e99e73ba0ec23",
+            "ios": "1:835613554586:ios:326a4b2f1b032f09a0ec23",
+            "macos": "1:835613554586:ios:326a4b2f1b032f09a0ec23",
+            "web": "1:835613554586:web:601ea70c4fcef716a0ec23",
+            "windows": "1:835613554586:web:78f9dc29a5e683c3a0ec23"
+          }
+        }
+      }
+    }
+  },
+ "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

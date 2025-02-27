@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "835613554586",
+    "project_id": "mytown-tallapoosa",
+    "storage_bucket": "mytown-tallapoosa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835613554586:android:0531c9ef7e31c7d9a0ec23",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfH1WpiKFhzmD82ZbF7wXyAU7kvtoTDiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835613554586-2bkikcr3244gr9ev2l161svlnudis864.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mytownTallapoosa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835613554586:android:089e49db1e99e73ba0ec23",
+        "android_client_info": {
+          "package_name": "com.example.mytown_admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfH1WpiKFhzmD82ZbF7wXyAU7kvtoTDiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835613554586-2bkikcr3244gr9ev2l161svlnudis864.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mytownTallapoosa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835613554586:android:62897e4718fa5e32a0ec23",
+        "android_client_info": {
+          "package_name": "com.mytown.tallapoosa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835613554586-ebrta1ntvlskgqicpg8vgpcctnk03fbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mytown.tallapoosa",
+            "certificate_hash": "e0ce1109f6b6c82ec518d9c0d43e5f60453378ee"
+          }
+        },
+        {
+          "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfH1WpiKFhzmD82ZbF7wXyAU7kvtoTDiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835613554586-56jthn8ouipn90k2401kqe25e93satm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835613554586-2bkikcr3244gr9ev2l161svlnudis864.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mytownTallapoosa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -30,6 +30,13 @@ class SideMenu extends StatelessWidget {
               onTap: () => context.go('/businesses'),
             ),
           ],
+           if (authNotifier.isAdmin || authNotifier.isManager) ...[
+            ListTile(
+              leading: const Icon(Icons.business),
+              title: const Text('Announcements'),
+              onTap: () => context.go('/announcements'),
+            ),
+          ],
           if (authNotifier.isAdmin) ...[
             ListTile(
               leading: const Icon(Icons.people),

@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'pages/announcements_page.dart';
 import 'pages/business_page.dart';
 import 'pages/dashboard_page.dart';
 import 'pages/login_page.dart';
@@ -27,6 +28,10 @@ final GoRouter router = GoRouter(
       return '/'; // 🔒 Only admins and managers can manage businesses
     }
 
+       if (currentRoute == '/announcements' && !(authNotifier.isAdmin || authNotifier.isManager)) {
+      return '/'; // 🔒 Only admins and managers can manage businesses
+    }
+
     return null; // ✅ Allow navigation
   },
   routes: [
@@ -35,5 +40,6 @@ final GoRouter router = GoRouter(
     GoRoute(path: '/businesses', builder: (context, state) => const BusinessPage()),
     GoRoute(path: '/users', builder: (context, state) => const UsersPage()),
     GoRoute(path: '/events', builder: (context, state) => const EventsPage()),
+    GoRoute(path: '/announcements', builder: (context, state) => const AnnouncementsPage()),
   ],
 );

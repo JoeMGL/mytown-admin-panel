@@ -4,6 +4,9 @@ import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:firebase_storage/firebase_storage.dart';
 
+import '../services/auth_notifier.dart';
+import '../widgets/side_menu.dart';
+
 class BusinessPage extends StatefulWidget {
   const BusinessPage({super.key});
 
@@ -64,8 +67,10 @@ class _BusinessPageState extends State<BusinessPage> {
 
   @override
   Widget build(BuildContext context) {
+    final authNotifier = AuthNotifier();
     return Scaffold(
       appBar: AppBar(title: const Text('Manage Business')),
+      drawer: SideMenu(authNotifier: authNotifier),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(

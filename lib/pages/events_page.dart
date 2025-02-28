@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import '../services/auth_notifier.dart';
 import '../widgets/side_menu.dart';
 
 class EventsPage extends StatefulWidget {
@@ -22,9 +23,10 @@ class _EventsPageState extends State<EventsPage> {
 
   @override
   Widget build(BuildContext context) {
+    final authNotifier = AuthNotifier(); // ✅ Instantiate AuthNotifier
     return Scaffold(
       appBar: AppBar(title: const Text('Manage Events')),
-      drawer: const SideMenu(),
+      drawer: SideMenu(authNotifier: authNotifier), // ✅ Add the Sidebar Menu
       body: Column(
         children: [
           Padding(

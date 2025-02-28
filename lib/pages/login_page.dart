@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
       }
     } catch (e) {
       setState(() {
-        _errorMessage = "Login failed: ${e.toString()}";
+        _errorMessage = "Login failed!: ${e.toString()}";
       });
     }
   }
